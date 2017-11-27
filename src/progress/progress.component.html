@@ -1,0 +1,11 @@
+<div *ngIf="visible" class="progress"
+	role="progressbar"
+	attr.tabindex="{{ tabIndex }}"
+	attr.aria-valuenow="{{ value }}"
+	attr.aria-valuetext="{{ getPercent() }}"
+	attr.aria-valuemin="{{ min }}"
+	attr.aria-valuemax="{{ max }}">
+	<div class="progress-meter" style.width="{{ getPercent() }};">
+		<p *ngIf="showValue" class="progress-meter-text">{{ getPercent() }}</p>
+	</div>
+</div>
