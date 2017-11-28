@@ -13,13 +13,10 @@
   "author": "Russel Porosky (https://github.com/metaloha/)",
   "main": "dist/index.js",
   "scripts": {
-    "prepare": "npm run build",
-    "start": "ng serve",
-    "build": "ng build",
     "test": "ng test",
     "lint": "stylelint ./src/**/*.scss && ng lint",
     "e2e": "ng e2e",
-    "docs": "compodoc --tsconfig tsconfig.json --output docs --theme vagrant --disablePrivate --disableProtected --disableInternal --disableLifeCycleHooks"
+    "docs": "compodoc --tsconfig tsconfig.json --output docs --theme vagrant --disablePrivate --disableProtected --disableInternal"
   },
   "engines": {
     "node": ">=6.9.5",
