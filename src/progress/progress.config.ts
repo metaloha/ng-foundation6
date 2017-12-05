@@ -50,7 +50,7 @@ export class ProgressConfig {
 	value = 0;
 
 	/**
-	 * A flag determining whether the progress bar is visibile at all.
+	 * A flag determining whether the progress bar is visible at all.
 	 * @type {boolean}
 	 */
 	visible = true;

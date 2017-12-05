@@ -8,3 +8,30 @@ export const enum Colors {
 	Warning,
 	Alert
 }
+
+/**
+ * The available grid directions.
+ */
+export const enum GridAxis {
+	Horizontal,
+	Vertical
+}
+
+/**
+ * The available types of grid containers.
+ */
+export const enum GridContainer {
+	None,
+	Default,
+	Fluid,
+	Full
+}
+
+/**
+ * The available types of grid gutters. Note that `Margin` and `Padding` can be combined as `GridGutters.Margin|GridGutters.Padding`.
+ */
+export const enum GridGutters {
+	None,
+	Margin,
+	Padding
+}

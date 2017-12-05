@@ -1,0 +1,15 @@
+<ng-template #grid>
+	<div class="grid grid-{{axis}}">
+		<ng-content></ng-content>
+	</div>
+</ng-template>
+<ng-template *ngIf="visible">
+	<ng-template *ngIf="container === GridContainer.None">
+		<ng-container *ngTemplateOutlet="grid"></ng-container>
+	</ng-template>
+	<ng-template *ngIf="container !== GridContainer.None">
+		<div class="{{containerClass()}}">
+			<ng-container *ngTemplateOutlet="grid"></ng-container>
+		</div>
+	</ng-template>
+</ng-template>

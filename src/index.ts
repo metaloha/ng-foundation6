@@ -4,9 +4,11 @@ import {
 } from '@angular/core';
 
 import { CardModule } from './card/card.module';
+import { GridModule } from './grid/grid.module';
 import { ProgressModule } from './progress/progress.module';
 
 export { CardModule } from './card/card.module';
+export { GridModule } from './grid/grid.module';
 export { ProgressModule } from './progress/progress.module';
 
 /**
@@ -14,6 +16,7 @@ export { ProgressModule } from './progress/progress.module';
  */
 const FD_MODULES = [
 	CardModule,
+	GridModule,
 	ProgressModule
 ];
 
@@ -23,6 +26,7 @@ const FD_MODULES = [
 @NgModule({
 	imports: [
 		CardModule.forRoot(),
+		GridModule.forRoot(),
 		ProgressModule.forRoot()
 	],
 	exports: FD_MODULES

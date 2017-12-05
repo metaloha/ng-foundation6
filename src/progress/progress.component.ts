@@ -53,7 +53,7 @@ export class ProgressComponent {
 	@Input() value: number;
 
 	/**
-	 * A flag determining whether the progress bar is visibile at all.
+	 * A flag determining whether the progress bar is visible at all.
 	 */
 	@Input() visible: boolean;
 

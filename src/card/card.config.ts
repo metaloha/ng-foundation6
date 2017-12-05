@@ -11,7 +11,7 @@ export class CardConfig {
 	image: string;
 
 	/**
-	 * A flag determining whether the progress bar is visibile at all.
+	 * A flag determining whether the card is visible at all.
 	 * @type {boolean}
 	 */
 	visible = true;

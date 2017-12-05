@@ -22,7 +22,7 @@ export class CardComponent {
 	@Input() image: string;
 
 	/**
-	 * A flag determining whether the progress bar is visibile at all.
+	 * A flag determining whether the card is visible at all.
 	 */
 	@Input() visible: boolean;
 
