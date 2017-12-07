@@ -4,6 +4,7 @@ import {
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { ProgressConfig } from './progress.config';
 import { ProgressComponent } from './progress.component';
 
 export { ProgressComponent } from './progress.component';
@@ -20,6 +21,9 @@ export { ProgressComponent } from './progress.component';
 	],
 	imports: [
 		CommonModule
+	],
+	providers: [
+		ProgressConfig
 	]
 })
 export class ProgressModule {

@@ -1,4 +1,19 @@
 /**
+ * Flexbox alignments; `Left`, `Right`, `Center`, `Justify`, and `Spaced` are x-axis.
+ */
+export const enum Alignments {
+	Left,
+	Right,
+	Center,
+	Justify,
+	Spaced,
+	Top,
+	Middle,
+	Bottom,
+	Stretch
+}
+
+/**
  * The standard color names; often used to dictate the "theme" or "type" of the component display.
  */
 export const enum Colors {
@@ -32,6 +47,7 @@ export const enum GridContainer {
  */
 export const enum GridGutters {
 	None,
+	Both,
 	Margin,
 	Padding
 }

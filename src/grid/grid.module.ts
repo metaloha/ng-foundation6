@@ -4,6 +4,7 @@ import {
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { GridConfig } from './grid.config';
 import { GridComponent } from './grid.component';
 
 export { GridComponent } from './grid.component';
@@ -20,6 +21,9 @@ export { GridComponent } from './grid.component';
 	],
 	imports: [
 		CommonModule
+	],
+	providers: [
+		GridConfig
 	]
 })
 export class GridModule {

@@ -4,6 +4,7 @@ import {
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { CardConfig } from './card.config';
 import { CardComponent } from './card.component';
 
 export { CardComponent } from './card.component';
@@ -20,6 +21,9 @@ export { CardComponent } from './card.component';
 	],
 	imports: [
 		CommonModule
+	],
+	providers: [
+		CardConfig
 	]
 })
 export class CardModule {
