@@ -1,4 +1,4 @@
-import { Injectable, Input } from '@angular/core';
+import { Injectable } from '@angular/core';
 
 import {
 	Alignments,
@@ -22,7 +22,7 @@ export class GridConfig {
 	 * An object whose properties are breakpoint names and values are the type of `GridGutter` to remove.
 	 * @type {object}
 	 */
-	@Input() collapse: object;
+	collapse: object;
 
 	/**
 	 * A flag determining whether the grid is wrapped by a grid container.

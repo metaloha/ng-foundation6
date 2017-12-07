@@ -14,6 +14,16 @@ export const enum Alignments {
 }
 
 /**
+ * Flexbox alignments for cells.
+ */
+export const enum CellAlignments {
+	Top,
+	Middle,
+	Bottom,
+	Stretch
+}
+
+/**
  * The standard color names; often used to dictate the "theme" or "type" of the component display.
  */
 export const enum Colors {
@@ -50,4 +60,13 @@ export const enum GridGutters {
 	Both,
 	Margin,
 	Padding
+}
+
+/**
+ * Allows an element to either shrink to the smallest size needed, or expand to take up all available space.
+ */
+export const enum Sizes {
+	Default,
+	Grow,
+	Shrink
 }
